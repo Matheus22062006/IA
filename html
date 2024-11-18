@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos Dinâmicos com JavaScript</title>
     <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Faça sua escolha?</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
-        </div>
-    </div>
+    <h1>Gráficos Dinâmicos com Chart.js</h1>
+    <canvas id="myChart"></canvas>
+    <button id="updateButton">Atualizar Dados</button>
+
     <script src="script.js"></script>
 </body>
 </html>
